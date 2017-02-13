@@ -5,16 +5,14 @@
 
 // Include header file //
 #include "extend.h"
+#include "colors.h"
 
 // Define DEBUG code mode //
 #define DEBUG 1
-//
+
 // Declaration of the global variables //
 // The game table
 int table[3][3];
-
-// Others
-
 
 /*******************  Functions ********************/
 
@@ -22,7 +20,7 @@ int table[3][3];
  * Function to made a movement on game
  * Status: READY
 */
-int make_move(int player) 
+int make_move(int player)
 {
     // Internal variables //
     int lat=0x00, lon=0x00;
@@ -71,7 +69,7 @@ int make_move(int player)
             fprintf(stdout,"\n\n");
             make_move(player);
         }
-        else 
+        else
             table[lat][lon] = 2;
     }
     else {
@@ -84,7 +82,7 @@ int make_move(int player)
  * Function to clean game table
  * Status: READY
 */
-void clean_table() 
+void clean_table()
 {
     for(int i=0; i<3; i++) {
         for(int j=0; j<3; j++) {
@@ -133,7 +131,7 @@ void print_table()
         }
     }
 }
- 
+
 
 /*
  * Function to check player winner
@@ -165,6 +163,6 @@ int check_winner() {
     else if ((table[0][2] == table[1][1]) && (table[1][1] == table[2][0]))
         player_id = table[0][2];
 
-    // Return player winner id // 
+    // Return player winner id //
     return player_id;
 }

@@ -1,3 +1,10 @@
+/*
+ * By Gustavo Toledo
+ * Date: sex dez  2 01:52:54 BRST 2016
+ * Version: 1.00-0
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -131,6 +138,11 @@ int main()
     }
     // End of main
 }
+
+/*
+ * If you want to use the personal header, uncomment it on top of this file and delete
+ *  or comment everything bellow.
+*/
 
 int make_move(int player)
 {
