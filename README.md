@@ -1,4 +1,4 @@
 # Jogo-da-velha-C
 
-This game was made in class (bored time) for learning purpose and it will be improved by time.
-Feel free to see, use, share, improve or whatever you want.
+Ete jogo foi feito em sala de aula (enquanto estava entediado com a aula) com o propósito de aprendizado e passatempo, claro. O mesmo será melhorado com o tempo.
+Sinta-se livre para jogar, usar, modificar ou incrementar o mesmo.
